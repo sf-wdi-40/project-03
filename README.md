@@ -1,4 +1,4 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Project 2 - Rails Group Project
+# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Project 3 - Rails Group Project
 
 **Read this entire document before writing a line of code.**
 
@@ -10,7 +10,6 @@
 * **[Further Exploration](#further-exploration):** What if we want to do more?
 * **[Deadlines](#deadlines):** When is it due?
 * **[Submission](#submission):** How do we turn in the project?
-* **[Project Groups](#project-groups):** Who are my group members and assigned instructor?
 * **[Presentation Guidelines](#presentation-guidelines):** What should we cover during our presentation?
 * **[Project Feedback](#project-feedback):** How will we get feedback from instructors?
 
@@ -45,7 +44,7 @@ For the second project, you will use your knowledge of front-end and back-end we
 * **User Stories:** Who is your user? What features will your app have? Set up your project and user stories in <a href="https://trello.com" target="_blank">Trello</a> or in some other organized format.
 * **Wireframes:** Sketch out what your core pages will look like and how they will work. Consider making a *paper prototype* to demonstrate and/or test key user interactions.
 * **Data Models:** Draw out the models and any associations for your project in an entity relationship diagram (ERD).
-* **Milestones:** Outline the milestones/sprints for your group.
+* **Milestones:** Outline the milestones/sprints for your group. What features will you work on first? At what point will you consider the first sprint "done"?
 * **Delegating Tasks:** What will each group member work on? Leverage everyone's strengths, and spend the majority of coding time pair programming.
 
 ### Completed Project Deliverables
@@ -75,16 +74,16 @@ For the second project, you will use your knowledge of front-end and back-end we
 * **Data Models** Include at least two data models with associations.
 * **Data Validation:** Your application should validate incoming data before entering it into the database.
 * **Error Handling:** Forms in your application should also validate data, handle incorrect inputs, and provide user feedback on the client side.
-* **Testing** Write specs for 25% of your controller functionality, as well as for any model methods.
+* **Testing** **Write specs for 25% of your controller functionality**, as well as for any model methods.
 * **Views:** Use **partials** to follow DRY (Don’t Repeat Yourself) development in your views.
 * **Home & About Pages:** Create a landing page (homepage) that clearly explains your app's value proposition and guides the user through the "get started" funnel. Create an about page that includes photos and brief bios of your team members.
-* **User Experience:** Ensure a pleasing and logical user experience. Use a framework like Bootstrap to enhance and ease your CSS styling.
+* **User Experience:** Ensure a pleasing and logical user experience. Use a framework like Bootstrap, Materialize, or similar to enhance and ease your CSS styling.
 * **Responsive Design:** Make sure your app looks great on a phone or tablet.
-* **Heroku:** Deploy your app to Heroku. Ensure no app secrets are exposed. *Do not commit secret keys to GitHub!*
+* **Heroku:** Deploy your app to Heroku. Ensure no app secrets are exposed. *Do not commit secret keys to GitHub!* Use a gem like Figaro or dotenv to keep your keys secret.
 
 ### Flexible Technical Requirements
 
-**Your app should have 3 out of the 5 following options:**
+**Your app should have 3 out of the 6 following options:**
 
 * **User Login** Make sure you have authentication *and* authorization.
 * **AJAX** Use AJAX to communicate with the server without reloading the page when appropriate.
@@ -104,13 +103,12 @@ If you want to push yourself and learn something new, optionally consider doing 
 * **Charting:** Visualize your data! Possibilities include D3, Morris.js, Highcharts, Chart.js, and Google Charts.
 * **Job Scheduling:** Set up a job-scheduler like Sidekiq, Delayed Job, or Resque to queue actions that don't need to run immediately.
 * **Emails:** Use ActionMailer to send emails to your users.
-* **Text Messaging:** Use Twilio to send texts to your users (note: not free).
+* **Text Messaging:** Use Twilio to send texts to your users (note: only free to send to a few phone numbers, for testing).
 * **Payment:** Use Stripe to allow your users to purchase from or donate to your site.
-* **Material Design:** Research the material design paradigm and apply it to ground your app's UI in the physical realm.
 * **CSS Animations:** Use jQuery or animate.css to include animations on your site.
 * **Accessibility:** Research web accessibility (e.g. for blind users), and apply accessibility principles to your app.
 * **Sessions:** Use sessions to store data for site visitors (who aren't necessarily logged in).
-* **Search:** Build a form that allows users to search your data, based on attributes. Consider looking into Elasticsearch to speed up queries.
+* **Search:** Build a form that allows users to search your data, based on attributes. Consider looking into Elasticsearch and searchkick to speed up queries.
 * **Whatever else you can think of!**
 
 ---
@@ -119,9 +117,9 @@ If you want to push yourself and learn something new, optionally consider doing 
 
 ###### When is it due?
 
-* **{{ENTER PROJECT PLANNING DELIVERABLES DATE HERE & TIME}}** - [Project planning deliverables](#project-planning-deliverables) due! Before beginning work on your project, your idea, project scope, and other planning deliverables must be approved by an instructor.
+* **Friday, September 29 by 10:00am** - [Project planning deliverables](#project-planning-deliverables) due! Before beginning work on your project, your idea, project scope, and other planning deliverables must be approved by an instructor.
 
-* **{{ENTER PROJECT PRESENTATION AN DUE DATE HERE}}** - [Completed project deliverables](#completed-project-deliverables) due and presentations!
+* **Thursday, October 5 at 10:00am** - [Completed project deliverables](#completed-project-deliverables) due and presentations!
 
 ---
 
@@ -134,52 +132,11 @@ If you want to push yourself and learn something new, optionally consider doing 
 
 ---
 
-## Project Groups
-
-###### Who are my group members and assigned instructor?
-
-#### Group 1 - TBD (INSTRUCTOR)
-
-* TBD
-* TBD
-* TBD
-* TBD
-
-#### Group 2 - TBD (INSTRUCTOR)
-
-* TBD
-* TBD
-* TBD
-* TBD
-
-#### Group 3 - TBD (INSTRUCTOR)
-
-* TBD
-* TBD
-* TBD
-* TBD
-
-#### Group 4 - TBD (INSTRUCTOR)
-
-* TBD
-* TBD
-* TBD
-* TBD
-
-#### Group 5 - TBD (INSTRUCTOR)
-
-* TBD
-* TBD
-* TBD
-* TBD
-
----
-
 ## Presentation Guidelines
 
 ###### What should we cover during our presentation?
 
-Each group will present their project on **{{ENTER PRESENTATION DATE HERE}}** starting at ** {{PRESENTATION TIME}}**. Please follow these guidelines:
+Each group will present their project on **October 5** starting at ** 10:00 am**. Please follow these guidelines:
 
 * Your presentation should include the **motivation** for building this project and a **demo** of the core functionality.
 * **Maximum 20 minutes.**
@@ -199,4 +156,4 @@ Each group will present their project on **{{ENTER PRESENTATION DATE HERE}}** st
 
 ###### How will we get feedback from instructors?
 
-See the [feedback doc](./project2-feedback.md) for details.
+See the [feedback doc](./feedback.md) for details.

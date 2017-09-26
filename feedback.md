@@ -1,4 +1,4 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Project 2 Feedback
+# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Project 3 Feedback
 
 **Your project will be evaluated based on the following criteria:**
 
@@ -8,6 +8,6 @@
 
 * **Code Quality**: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code?
 
-* **Problem Solving**: Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations? 
+* **Problem Solving**: Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
 
-You'll be receiving written feedback from your instructors.  The criteria above will be evaluated as either **does not meet expectations**, **meets expectations**, or **exceeds expectations**.
+You'll be receiving feedback via an in-depth 1:1 meeting for code review with an instructor.  The criteria above will be evaluated as either **does not meet expectations**, **meets expectations**, or **exceeds expectations**.
